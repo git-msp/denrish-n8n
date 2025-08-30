@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: denrish-n8n
+    env: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "admin"
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "yourpassword"
+      - key: N8N_ENCRYPTION_KEY
+        value: "random-secret-key"
+      - key: GENERIC_TIMEZONE
+        value: "Asia/Kolkata"
