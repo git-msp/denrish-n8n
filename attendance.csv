@@ -1,0 +1,4 @@
+student_id,name,class,date,status,check_in_time,remarks
+STU001,Aarav Mehta,1A,2025-08-30,Present,08:32 AM,
+STU002,Riya Sharma,1B,2025-08-30,Absent,,Sick leave
+STU003,Kabir Joshi,2A,2025-08-30,Present,08:29 AM
